@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Серая Птица</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>СЕРАЯ ПТИЦА</title>
+
+<style>
+body{
+    margin:0;
+    background:#0b0b0b;
+    color:#e5e5e5;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background:#151515;
+    border-bottom:2px solid #555;
+    padding:25px;
+    text-align:center;
+}
+
+h1{
+    margin:0;
+    letter-spacing:8px;
+    font-size:42px;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+    margin-top:40px;
+}
+
+.card{
+    background:#181818;
+    border:1px solid #444;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:8px;
+}
+
+.button{
+    display:inline-block;
+    padding:14px 24px;
+    background:#2d2d2d;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    margin-top:15px;
+}
+
+.button:hover{
+    background:#555;
+}
+</style>
+
 </head>
 <body>
-    <h1>СЕРАЯ ПТИЦА</h1>
-    <p>Архив и документация проекта.</p>
+
+<header>
+<h1>СЕРАЯ ПТИЦА</h1>
+<p>Внутренний архив организации</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Статус системы</h2>
+<p>🟢 ONLINE</p>
+<p>Архив работает в штатном режиме.</p>
+</div>
+
+<div class="card">
+<h2>Документы</h2>
+
+<p>SP-8-017 — Активен</p>
+
+<a class="button" href="#">
+Открыть архив
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>Предупреждение</h2>
+
+<p>
+Несанкционированное распространение документов запрещено.
+Все действия фиксируются системой.
+</p>
+
+</div>
+
+</div>
+
 </body>
 </html>
